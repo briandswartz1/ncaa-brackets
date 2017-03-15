@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NCAA Bracket Generator</title>
+	<script type="text/javascript" src="ncaa_brackets.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	click these buttons from left to right to generate a bracket: 
+<br>
+<input type="button" value="Generate Teams" onclick="generateTeams()"/>
+
+<input type="button" value="Populate Regions" onclick="populateRegions()" />
+
+<input type="button" value="Play Rounds 1 - 4!" onclick="playRounds()" /><br>
+
+
+
+<input type="button" value="Play Round 1 Matches!" onclick="playRound1()" />
+
+<input type="button" value="Play Round 2 Matches!" onclick="playRound2()" />
+
+<input type="button" value="Play Round 3 Matches!" onclick="playRound3()" />
+
+<input type="button" value="Play Round 4 Matches!" onclick="playRound4()" />
+
+<input type="button" value="Play Final Four!" onclick="playFinalFour()" />
+
+<input type="button" value="Play Championship!" onclick="playChampionship()" />
+
+
+<div class="row" id="middle_row"> 
+  <div class="sub_column_left champs" id="final_four">
+    Final Four!
+  </div> 
+  <div class="sub_column_left" id="champ_game">
+    Championship Game!
+  </div>
+</div>
+
+<div class="row" id="top_row"> 
+  <div class="sub_column_left" id="sub_col_1_1">
+    East Region 
+  </div>
+  <div class="sub_column_left" id="sub_col_1_2">
+    Region 1 - Round 2
+  </div>
+  <div class="sub_column_left" id="sub_col_1_3">
+    Region 1 - Round 3
+  </div>
+  <div class="sub_column_left" id="sub_col_1_4">
+    Region 1 - Round 4
+  </div>
+
+  <div class="sub_column_right" id="sub_col_3_1">
+    Midwest Region (3)
+  </div>
+  <div class="sub_column_right" id="sub_col_3_2">
+    Region 3 - Round 2
+  </div>
+  <div class="sub_column_right" id="sub_col_3_3">
+    Region 3 - Round 3
+  </div>
+  <div class="sub_column_right" id="sub_col_3_4">
+    Region 3 - Round 4
+  </div>
+</div>
+
+
+
+  
+
+<div class="row" id="bottom_row">
+  <div class="sub_column_left" id="sub_col_2_1">
+    South Region (2)
+  </div>
+  <div class="sub_column_left" id="sub_col_2_2">
+    Region 2 - Round 2
+  </div>
+  <div class="sub_column_left" id="sub_col_2_3">
+    Region 2 - Round 3
+  </div>
+  <div class="sub_column_left" id="sub_col_2_4">
+    Region 2 - Round 4
+  </div>
+
+  <div class="sub_column_right" id="sub_col_4_1">
+    West Region (4)
+  </div>
+  <div class="sub_column_right" id="sub_col_4_2">
+    Region 4 - Round 2
+  </div>
+  <div class="sub_column_right" id="sub_col_4_3">
+    Region 4 - Round 3
+  </div>
+  <div class="sub_column_right" id="sub_col_4_4">
+    Region 4 - Round 4
+  </div>
+</div>
+</body>
+</html>

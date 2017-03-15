@@ -1,0 +1,26 @@
+.row {
+  float: left;
+  width: 100%;
+  border: 0px solid;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.sub_column_left {
+  float: left;
+  width: 160px;
+  margin: 5px;
+  border: 1px solid;
+}
+
+.sub_column_right {
+  float: right;
+  width: 160px; 
+  margin: 5px;
+  border: 1px solid;
+}
+
+.champs {
+  width: 200px;
+  margin-left: 600px;
+}
